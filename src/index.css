@@ -124,6 +124,7 @@ code {
 
         .rules{
           background-color: var(--dark);
+          color: var(--light);
         }
         
         #rules-title{

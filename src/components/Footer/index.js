@@ -1,26 +1,26 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaDiscord } from "react-icons/fa";
+import { FaTwitter, FaYoutube, FaDiscord } from "react-icons/fa";
 
 
 
 function Footer() {
     return (
-            <div id="footer" className="footer-div">
+            <div id="footer" className="footer-div ">
                 <footer>
                 <ul>
                     <a href="www.linkedin.com/in/tanner-b-62b90a222" target="blank">
                     <li>
-                        <FaLinkedin />
+                        <FaYoutube size={50} />
                     </li>
                     </a>
                     <a href="https://github.com/TannerReed29" target="blank">
                         <li>
-                            <FaGithub />
+                            <FaTwitter size={50} />
                         </li>
                     </a>
                     <a href="https://discord.gg/upperhand" target="blank">
                         <li>
-                            <FaDiscord />
+                            <FaDiscord size={50} />
                         </li>
                     </a>
                 </ul>
